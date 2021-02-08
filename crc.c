@@ -34,6 +34,8 @@
 
 #include "crc.h"
 
+
+
 /* This is a pre-computed table to make crc computations efficient */
 static unsigned long crctable[] = {
   0x00000000L, 0x77073096L, 0xee0e612cL, 0x990951baL,
